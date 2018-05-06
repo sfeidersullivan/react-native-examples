@@ -26,7 +26,7 @@ class App extends React.PureComponent {
   }
 
   renderContent() {
-    if(this.state.loggedIn) {
+    if(this.state.loggedIn)
       return <Button>Log Out</Button>
     return <LoginForm />;
   }
