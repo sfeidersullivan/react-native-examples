@@ -23,7 +23,7 @@ class LoginForm extends PureComponent {
     return this.props.loading ?
       <Spinner size="large" /> :
       <Button onPress={this.onButtonPress.bind(this)}>
-        button
+        Log In
       </Button>;
   }
 
